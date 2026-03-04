@@ -101,10 +101,6 @@ export default function Login() {
             <Link className="link-strong" to="/register">Criar conta</Link>
           </div>
 
-          <div className="debug">
-            <div><strong>Autenticado:</strong> {String(isAuthenticated)}</div>
-            <div><strong>Token:</strong> {localStorage.getItem("token") ? "✅ existe" : "❌ não"}</div>
-          </div>
         </form>
       </div>
     </div>
